@@ -23,20 +23,23 @@ public class NewTest {
 
 	}
 
-	@Test
+	@Test (priority =1)
 	public void TestLogin() throws InterruptedException {
 
 		driver.findElement(By.id("email")).sendKeys("kiran@gmail.com");
 		driver.findElement(By.id("password")).sendKeys("123456");
 		driver.findElement(By.xpath("//*[@id=\"form\"]/div[3]/div/button")).click();
+		//String title1 = driver.getTitle();
+		System.out.println("TestLogin executed");
 		
 	}
 
-	@Test
+	@Test(priority =2)
 	public void TestGettitle() {
 		String title = driver.getTitle();
 		try {
 			Assert.assertEquals("JavaByKiran | Dashboard", title);
+			System.out.println("TestGettitle executed");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -51,6 +54,7 @@ public class NewTest {
 		driver.findElement(By.linkText("LOGOUT"));
 		driver.close();
 		driver.quit();
+		System.out.println("After suite executed");
 	}
 
 }

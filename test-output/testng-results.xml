@@ -2,23 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1251" started-at="2020-03-15T19:44:29Z" finished-at="2020-03-15T19:44:31Z">
+  <suite name="Default suite" duration-ms="1054" started-at="2020-03-15T20:46:08Z" finished-at="2020-03-15T20:46:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1251" started-at="2020-03-15T19:44:29Z" finished-at="2020-03-15T19:44:31Z">
+    <test name="Default test" duration-ms="1054" started-at="2020-03-15T20:46:08Z" finished-at="2020-03-15T20:46:09Z">
       <class name="com.mvn.demo.NewTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mvn.demo.NewTest@e50a6f6]" name="beforeSuite" is-config="true" duration-ms="3596" started-at="2020-03-15T19:44:26Z" finished-at="2020-03-15T19:44:29Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mvn.demo.NewTest@14ec4505]" name="beforeSuite" is-config="true" duration-ms="4366" started-at="2020-03-15T20:46:04Z" finished-at="2020-03-15T20:46:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.mvn.demo.NewTest@e50a6f6]" name="f" duration-ms="1185" started-at="2020-03-15T19:44:29Z" finished-at="2020-03-15T19:44:31Z">
+        <test-method status="PASS" signature="TestLogin()[pri:1, instance:com.mvn.demo.NewTest@14ec4505]" name="TestLogin" duration-ms="1004" started-at="2020-03-15T20:46:08Z" finished-at="2020-03-15T20:46:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.mvn.demo.NewTest@e50a6f6]" name="test2" duration-ms="32" started-at="2020-03-15T19:44:31Z" finished-at="2020-03-15T19:44:31Z">
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="TestGettitle()[pri:2, instance:com.mvn.demo.NewTest@14ec4505]" name="TestGettitle" duration-ms="20" started-at="2020-03-15T20:46:09Z" finished-at="2020-03-15T20:46:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
+        </test-method> <!-- TestGettitle -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.mvn.demo.NewTest@14ec4505]" name="TearDown" is-config="true" duration-ms="715" started-at="2020-03-15T20:46:09Z" finished-at="2020-03-15T20:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
       </class> <!-- com.mvn.demo.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
