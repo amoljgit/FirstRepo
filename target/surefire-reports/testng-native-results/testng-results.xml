@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="2099" started-at="2020-03-15T07:11:42Z" finished-at="2020-03-15T07:11:44Z">
+  <suite name="Command line suite" duration-ms="1971" started-at="2020-03-15T08:02:53Z" finished-at="2020-03-15T08:02:55Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="2099" started-at="2020-03-15T07:11:42Z" finished-at="2020-03-15T07:11:44Z">
+    <test name="Command line test" duration-ms="1971" started-at="2020-03-15T08:02:53Z" finished-at="2020-03-15T08:02:55Z">
       <class name="com.mvn.demo.NewTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mvn.demo.NewTest@22f71333]" name="beforeSuite" is-config="true" duration-ms="5205" started-at="2020-03-15T07:11:36Z" finished-at="2020-03-15T07:11:42Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mvn.demo.NewTest@380fb434]" name="beforeSuite" is-config="true" duration-ms="4054" started-at="2020-03-15T08:02:49Z" finished-at="2020-03-15T08:02:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.mvn.demo.NewTest@22f71333]" name="f" duration-ms="2051" started-at="2020-03-15T07:11:42Z" finished-at="2020-03-15T07:11:44Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.mvn.demo.NewTest@380fb434]" name="f" duration-ms="1931" started-at="2020-03-15T08:02:53Z" finished-at="2020-03-15T08:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.mvn.demo.NewTest@22f71333]" name="test2" duration-ms="30" started-at="2020-03-15T07:11:44Z" finished-at="2020-03-15T07:11:44Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.mvn.demo.NewTest@380fb434]" name="test2" duration-ms="17" started-at="2020-03-15T08:02:55Z" finished-at="2020-03-15T08:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
